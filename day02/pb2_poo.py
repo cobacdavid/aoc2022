@@ -1,4 +1,4 @@
-class chifoumi:
+class Chifoumi:
     opposant = {'A': 'R', 'B': 'P', 'C': 'S'}
     gain = {'R': 1, 'P': 2, 'S': 3}
     regles_vers_perdant = {'R': 'S', 'S': 'P', 'P': 'R'}
@@ -38,4 +38,4 @@ class chifoumi:
         self._score += s
 
 
-print(chifoumi('jeu2.dat').score)
+print(Chifoumi('jeu2.dat').score)
