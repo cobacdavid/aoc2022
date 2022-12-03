@@ -39,10 +39,6 @@ class Elfe:
             cls.maj_elfes(lf)
 
     @classmethod
-    def max_calories(cls):
-        return max(un_elfe.calories for un_elfe in cls.mes_elfes)
-
-    @classmethod
     def ajoute_elfe(cls, e):
         cls.mes_elfes.append(e)
     
